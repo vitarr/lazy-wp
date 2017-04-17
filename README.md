@@ -1,1 +1,1 @@
-# lazy_wp
+# Repo of lazy word press Victor's project :)
