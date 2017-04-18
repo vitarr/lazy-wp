@@ -11,8 +11,8 @@
   Version: 1.0
  */
 
-
-add_action('the_title', function($title) {
-    $title .= ':)';
+add_option('smile', ':)');
+add_filter('the_title', function($title) {
+    $title .= ' '.get_option('smile');
     return $title;
 });
